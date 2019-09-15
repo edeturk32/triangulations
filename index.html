@@ -1,3 +1,7 @@
 <canvas id="canvas" width="500" height="500"></canvas>
 <p id="p1">Event type:</p>
-<script src="/triangulations.js"></script>
+<script>
+$("#canvas").click(function(event){
+     alert(event.type);
+});
+</script>
